@@ -63,4 +63,9 @@ class FakeGlobalAudioplayersPlatform
     calls.add(FakeGlobalCall(method: 'globalDispose'));
     eventStreamController.close();
   }
+  
+  @override
+  Future<void> init() {
+    throw UnimplementedError();
+  }
 }

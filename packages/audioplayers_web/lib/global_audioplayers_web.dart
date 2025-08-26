@@ -37,4 +37,9 @@ class WebGlobalAudioplayersPlatform
     _eventStreamController
         .addError(PlatformException(code: code, message: message));
   }
+  
+  @override
+  Future<void> init() {
+    throw UnimplementedError();
+  }
 }
