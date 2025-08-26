@@ -43,8 +43,8 @@ dev_dependencies:
     sdk: flutter
 
 environment:
-  sdk: ^3.6.0
-  flutter: '>=3.27.0'
+  sdk: ^3.5.4
+  flutter: '>=3.24.5'
 
 topics:
   - audio
